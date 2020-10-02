@@ -1,0 +1,11 @@
+.first-screen__subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 150%;
+  max-width: 734px;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}

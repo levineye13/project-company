@@ -1,0 +1,6 @@
+.first-screen {
+  min-height: 100vh;
+  margin: 0 auto;
+  background: url('./../../images/first-screen-bg.png') center/cover no-repeat;
+  font-family: 'Oswald', Arial, sans-serif;
+}

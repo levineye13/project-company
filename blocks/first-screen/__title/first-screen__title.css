@@ -1,0 +1,11 @@
+.first-screen__title {
+  font-size: 64px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 148%;
+  text-transform: uppercase;
+  max-width: 734px;
+  margin: 112px auto 35px;
+  text-align: center;
+  color: #fff;
+}
