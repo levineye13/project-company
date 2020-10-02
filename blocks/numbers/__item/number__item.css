@@ -2,3 +2,7 @@
   width: 190px;
   text-align: center;
 }
+
+.number__item:not(:last-child) {
+  margin-right: 30px;
+}
