@@ -1,0 +1,29 @@
+@font-face {
+  src: url('./Oswald-Regular.eot') format('eot'),
+    url('./Oswald-Regular.ttf') format('truetype'),
+    url('./Oswald-Regular.woff') format('woff'),
+    url('./Oswald-Regular.woff2') format('woff2');
+  font-family: 'Oswald';
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  src: url('./Oswald-Medium.eot') format('eot'),
+    url('./Oswald-Medium.ttf') format('truetype'),
+    url('./Oswald-Medium.woff') format('woff'),
+    url('./Oswald-Medium.woff2') format('woff2');
+  font-family: 'Oswald';
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  src: url('./Oswald-Bold.eot') format('eot'),
+    url('./Oswald-Bold.ttf') format('truetype'),
+    url('./Oswald-Bold.woff') format('woff'),
+    url('./Oswald-Bold.woff2') format('woff2');
+  font-family: 'Oswald';
+  font-weight: 700;
+  font-style: normal;
+}
