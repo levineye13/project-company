@@ -1,0 +1,11 @@
+.contacts__item {
+  flex-basis: 255px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.contacts__item:last-of-type {
+  padding-top: 8px;
+}
