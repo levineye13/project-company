@@ -41,11 +41,11 @@
 @import url('./../blocks/services/__link/services__link.css');
 @import url('./../blocks/services/__img/services__img.css');
 @import url('./../blocks/services/__text/services__text.css');
-@import url('');
-@import url('');
-@import url('');
-@import url('');
-@import url('');
+@import url('./../blocks/portfolio/portfolio.css');
+@import url('./../blocks/content/__portfolio/content__portfolio.css');
+@import url('./../blocks/portfolio/__list/portfolio__list.css');
+@import url('./../blocks/portfolio/__item/portfolio__item.css');
+@import url('./../blocks/portfolio/__img/portfolio__img.css');
 @import url('');
 @import url('');
 @import url('');
