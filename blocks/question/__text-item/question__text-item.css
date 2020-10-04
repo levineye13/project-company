@@ -1,0 +1,11 @@
+.question__text-item {
+  margin: 0;
+  max-width: 730px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 138%;
+  color: #999;
+  padding-top: 30px;
+  display: none;
+}
