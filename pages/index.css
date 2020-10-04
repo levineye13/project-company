@@ -77,3 +77,6 @@
 @import url('./../blocks/footer/__content/footer__content.css');
 @import url('./../blocks/footer/__copyright/footer__copyright.css');
 @import url('./../blocks/footer/__comment/footer__comment.css');
+@import url('./../blocks/animation/animation.css');
+@import url('./../blocks/animation/_type/animation_type_button-menu.css');
+@import url('./../blocks/animation/_type/animation_type_button-request.css');

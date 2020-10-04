@@ -1,0 +1,16 @@
+@keyframes button-menu {
+  0% {
+    transform: translateX(calc(-25px - 12px));
+    -webkit-transform: translateX(calc(-25px - 12px));
+    -moz-transform: translateX(calc(-25px - 12px));
+    -ms-transform: translateX(calc(-25px - 12px));
+    -o-transform: translateX(calc(-25px - 12px));
+  }
+  100% {
+  }
+}
+
+.header__menu:hover .animation_type_button-menu {
+  animation: button-menu 0.3s linear 0s 1;
+  -webkit-animation: button-menu 0.3s linear 0s 1;
+}
