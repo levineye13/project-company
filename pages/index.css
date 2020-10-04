@@ -55,9 +55,14 @@
 @import url('./../blocks/question/__invisible-checkbox/question__invisible-checkbox.css');
 @import url('./../blocks/question/__arrow/question__arrow.css');
 @import url('./../blocks/question/__text-item/question__text-item.css');
-@import url('');
-@import url('');
-@import url('');
+@import url('./../blocks/partners/partners.css');
+@import url('./../blocks/content/__partners/content__partners.css');
+@import url('./../blocks/partners/__container/partners__container.css');
+@import url('./../blocks/partners/__title/partners__title.css');
+@import url('./../blocks/partners/__list/partners__list.css');
+@import url('./../blocks/partners/__item/partners__item.css');
+@import url('./../blocks/partners/__link/partners__link.css');
+@import url('./../blocks/partners/__img/partners__img.css');
 @import url('./../blocks/contacts/contacts.css');
 @import url('./../blocks/content/__contacts/content__contacts.css');
 @import url('./../blocks/contacts/__title/contacts__title.css');
