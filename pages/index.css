@@ -55,6 +55,7 @@
 @import url('./../blocks/question/__invisible-checkbox/question__invisible-checkbox.css');
 @import url('./../blocks/question/__arrow/question__arrow.css');
 @import url('./../blocks/question/__text-item/question__text-item.css');
+@import url('./../blocks/question/__text-item/_visible/question__text-item_visible.css');
 @import url('./../blocks/partners/partners.css');
 @import url('./../blocks/content/__partners/content__partners.css');
 @import url('./../blocks/partners/__container/partners__container.css');
