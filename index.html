@@ -14,12 +14,19 @@
             src="./images/header-logo.png"
             alt="Логотип"
             class="header__logo"
-          />
-          <button class="header__menu" type="button">
-            <span
-              class="header__menu-element animation animation_type_button-menu"
-            ></span>
-          </button>
+					/>
+					<div class="header__menu-container">
+						<button class="header__menu" type="button">
+							<span
+								class="header__menu-element animation animation_type_button-menu"
+							></span>
+						</button>
+						<ul class="header__menu-list">
+							<li class="header__menu-item"><a href="#question" class="header__menu-link">Вопросы</a></li>
+							<li class="header__menu-item"><a href="#partners" class="header__menu-link">Партнёры</a></li>
+							<li class="header__menu-item"><a href="#contacts" class="header__menu-link">Контакты</a></li>
+						</ul>
+					</div>
         </header>
         <h1 class="first-screen__title">
           реализуем крупнейшие проекты в России
@@ -244,7 +251,7 @@
           </ul>
         </section>
 
-        <section class="question section section_narrow content__question">
+        <section class="question section section_narrow content__question" id="question">
           <h2 class="question__title title">Ответы на вопросы</h2>
           <ul class="question__list">
             <li class="question__item">
@@ -315,7 +322,7 @@
           </ul>
         </section>
 
-        <section class="partners content__partners">
+        <section class="partners content__partners" id="partners">
           <div class="partners__container section section_narrow">
             <h2 class="partners__title title">Наши партнеры</h2>
             <ul class="partners__list">
@@ -363,7 +370,7 @@
           </div>
         </section>
 
-        <section class="contacts section section_narrow content__contacts">
+        <section class="contacts section section_narrow content__contacts" id="contacts">
           <h2 class="contacts__title title">Контакты</h2>
           <ul class="contacts__list">
             <li class="contacts__item">

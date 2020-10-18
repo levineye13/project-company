@@ -12,3 +12,9 @@ checkboxList.forEach(checkboxItem => {
 	});
 });
 
+const headerMenu = document.querySelector('.header__menu-list');
+const buttonMenu = document.querySelector('.header__menu');
+
+buttonMenu.addEventListener('click', () => {
+	headerMenu.classList.toggle('header__menu-list_visible');
+})

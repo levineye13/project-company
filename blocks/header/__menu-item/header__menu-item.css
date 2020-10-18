@@ -1,0 +1,7 @@
+.header__menu-item {
+  border-bottom: 2px solid #fff;
+}
+
+.header__menu-item:not(:last-child) {
+  margin-bottom: 15px;
+}
