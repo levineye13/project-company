@@ -86,3 +86,7 @@
 @import url('./../blocks/animation/animation.css');
 @import url('./../blocks/animation/_type/animation_type_button-menu.css');
 @import url('./../blocks/animation/_type/animation_type_button-request.css');
+
+* {
+  border: 1px solid red;
+}

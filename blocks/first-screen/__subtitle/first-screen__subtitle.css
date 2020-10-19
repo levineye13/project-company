@@ -1,5 +1,5 @@
 .first-screen__subtitle {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 400;
   font-style: normal;
   line-height: 150%;
@@ -8,4 +8,16 @@
   text-align: center;
   text-transform: uppercase;
   color: #fff;
+}
+
+@media screen and (max-width: 720px) {
+  .first-screen__subtitle {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .first-screen__subtitle {
+    font-size: 18px;
+  }
 }
