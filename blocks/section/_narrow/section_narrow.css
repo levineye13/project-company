@@ -1,4 +1,21 @@
 .section_narrow {
-  /* max-width: calc(100% - 405px * 2); */
   max-width: 1110px;
+}
+
+@media screen and (max-width: 1280px) {
+  .section_narrow {
+    max-width: calc(100% - 50px * 2);
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .section_narrow {
+    max-width: calc(100% - 25px * 2);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .section_narrow {
+    max-width: calc(100% - 10px * 2);
+  }
 }

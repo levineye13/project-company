@@ -5,6 +5,7 @@
   border: 0;
   outline: 0;
   padding: 0;
+  align-self: flex-end;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -41,4 +42,11 @@
   -moz-transform: translateY(5px);
   -ms-transform: translateY(5px);
   -o-transform: translateY(5px);
+}
+
+@media screen and (max-width: 720px) {
+  .header__menu {
+    height: 40px;
+    width: 40px;
+  }
 }

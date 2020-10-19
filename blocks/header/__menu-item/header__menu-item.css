@@ -2,6 +2,6 @@
   border-bottom: 2px solid #fff;
 }
 
-.header__menu-item:not(:last-child) {
-  margin-bottom: 15px;
+.header__menu-item:not(:first-child) {
+  margin-left: 15px;
 }
