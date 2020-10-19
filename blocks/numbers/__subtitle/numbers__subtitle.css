@@ -2,3 +2,9 @@
   color: #000;
   margin: 25px 0 10px;
 }
+
+@media screen and (max-width: 720px) {
+  .numbers__subtitle {
+    margin-top: 15px;
+  }
+}

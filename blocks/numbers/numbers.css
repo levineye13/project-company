@@ -2,10 +2,20 @@
   margin: 0 auto;
   font-family: 'Oswald', Arial, sans-serif;
   background-color: #f7f7f7;
-  padding: 50px 130px;
+  padding: 50px 0;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
+}
+
+@media screen and (max-width: 1080px) {
+  .numbers {
+    transform: translateY(-35%);
+    -webkit-transform: translateY(-35%);
+    -moz-transform: translateY(-35%);
+    -ms-transform: translateY(-35%);
+    -o-transform: translateY(-35%);
+  }
 }

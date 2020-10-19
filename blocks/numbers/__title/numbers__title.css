@@ -6,3 +6,15 @@
   line-height: 148%;
   color: #f7654a;
 }
+
+@media screen and (max-width: 720px) {
+  .numbers__title {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .numbers__title {
+    font-size: 44px;
+  }
+}

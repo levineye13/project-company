@@ -5,3 +5,15 @@
   line-height: 147%;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 1080px) {
+  .title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .title {
+    font-size: 20px;
+  }
+}

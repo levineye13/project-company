@@ -1,5 +1,5 @@
 .first-screen {
-  min-height: 100vh;
+  min-height: 740px;
   width: 100%;
   background: url('./../../images/first-screen-bg.png') center/cover no-repeat;
   font-family: 'Oswald', Arial, sans-serif;

@@ -1,8 +1,23 @@
 .number__item {
-  width: 190px;
+  min-width: 190px;
+  max-width: 190px;
   text-align: center;
+  border: 1px solid #c7c4c4;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
-.number__item:not(:last-child) {
-  margin-right: 30px;
+@media screen and (max-width: 1080px) {
+  .number__item:nth-of-type(-n + 2) {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .number__item:not(:last-child) {
+    margin-bottom: 15px;
+  }
 }

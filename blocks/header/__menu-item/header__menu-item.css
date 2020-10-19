@@ -5,3 +5,9 @@
 .header__menu-item:not(:first-child) {
   margin-left: 15px;
 }
+
+@media screen and (max-width: 425px) {
+  .header__menu-item {
+    border-width: 1px;
+  }
+}
