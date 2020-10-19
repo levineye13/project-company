@@ -1,4 +1,20 @@
 .project__img {
-  max-width: 100%;
+  width: 100%;
+  max-width: 350px;
   height: auto;
+  object-fit: contain;
+  object-position: left top;
+}
+
+@media screen and (max-width: 960px) {
+  .project__img {
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .project__img {
+    max-width: 100%;
+    object-position: center top;
+  }
 }

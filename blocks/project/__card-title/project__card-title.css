@@ -4,7 +4,7 @@
   font-style: normal;
   line-height: 150%;
   color: #404149;
-  margin: 66px 0 20px;
+  margin: 0 0 20px;
   position: relative;
 }
 
@@ -17,4 +17,14 @@
   left: 0;
   top: -15px;
   background-color: #f7654a;
+}
+
+@media screen and (max-width: 960px) {
+  .project__card-title {
+    margin-bottom: 40px;
+  }
+
+  .project__card-title::before {
+    top: calc(100% + 10px);
+  }
 }

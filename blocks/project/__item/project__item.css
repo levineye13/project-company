@@ -1,5 +1,29 @@
 .project__item {
-  flex-basis: 350px;
+  flex: 0 1 350px;
+  max-width: 100%;
+  min-width: 200px;
   display: flex;
   flex-direction: column;
+}
+
+.project__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 960px) {
+  .project__item:not(:last-child) {
+    margin: 0 0 60px 0;
+  }
+
+  .project__item {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 100%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .project__item {
+    flex-direction: column;
+  }
 }

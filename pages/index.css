@@ -30,6 +30,7 @@
 @import url('./../blocks/project/__list/project__list.css');
 @import url('./../blocks/project/__item/project__item.css');
 @import url('./../blocks/project/__img/project__img.css');
+@import url('./../blocks/project/__container/project__container.css');
 @import url('./../blocks/project/__card-title/project__card-title.css');
 @import url('./../blocks/project/__text/project__text.css');
 @import url('./../blocks/request/request.css');
