@@ -4,18 +4,18 @@
 
 @media screen and (max-width: 1280px) {
   .section_narrow {
-    max-width: calc(100% - 50px * 2);
+    width: calc(100% - 50px * 2);
   }
 }
 
 @media screen and (max-width: 720px) {
   .section_narrow {
-    max-width: calc(100% - 30px * 2);
+    width: calc(100% - 30px * 2);
   }
 }
 
 @media screen and (max-width: 425px) {
   .section_narrow {
-    max-width: calc(100% - 15px * 2);
+    width: calc(100% - 15px * 2);
   }
 }

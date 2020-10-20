@@ -2,7 +2,22 @@
   margin: 0;
   padding: 0;
   list-style-type: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(300px, 350px));
+  gap: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .services__list {
+    grid-template-columns: repeat(2, minmax(300px, 350px));
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .services__list {
+    grid-template-columns: repeat(1, minmax(280px, 300px));
+    justify-content: center;
+  }
 }

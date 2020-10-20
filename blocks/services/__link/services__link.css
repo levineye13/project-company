@@ -18,3 +18,9 @@
 .services__link:hover {
   background-color: #e5e5e5;
 }
+
+@media screen and (max-width: 720px) {
+  .services__link {
+    padding: 40px;
+  }
+}
