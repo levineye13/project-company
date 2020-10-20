@@ -7,5 +7,20 @@
   line-height: 138%;
   color: #999;
   padding-top: 30px;
+  text-indent: 30px;
   display: none;
+}
+
+.question__text-item::first-letter {
+  font-size: 24px;
+}
+
+@media screen and (max-width: 425px) {
+  .question__text-item {
+    font-size: 14px;
+  }
+
+  .question__text-item::first-letter {
+    font-size: 16px;
+  }
 }
