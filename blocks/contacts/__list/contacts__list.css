@@ -4,5 +4,11 @@
   list-style-type: none;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px) {
+  .contacts__list {
+    flex-direction: column;
+    align-items: center;
+  }
 }

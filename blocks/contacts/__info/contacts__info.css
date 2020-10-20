@@ -7,3 +7,15 @@
   text-transform: uppercase;
   color: #000;
 }
+
+@media screen and (max-width: 960px) {
+  .contacts__info {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .contacts__info {
+    font-size: 16px;
+  }
+}
