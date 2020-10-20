@@ -1,5 +1,5 @@
 .request__button {
-  width: 175px;
+  min-width: 175px;
   height: 49px;
   background-color: #fff;
   border: 0;
@@ -17,12 +17,12 @@
 
 .request__button::before {
   content: '';
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
   position: absolute;
   top: 50%;
   left: 30px;
-  background: url('./../../../images/request-button.png') left center/auto
+  background: url('./../../../images/request-button.png') left center/contain
     no-repeat;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
@@ -32,5 +32,18 @@
 }
 
 .request__button:focus {
-  outline: 1px solid rgb(73, 72, 72);
+  outline: 2px solid rgb(73, 72, 72);
+}
+
+@media screen and (max-width: 720px) {
+  .request__button {
+    font-size: 12px;
+    min-width: 150px;
+    height: 44px;
+  }
+
+  .request__button::before {
+    width: 16px;
+    height: 16px;
+  }
 }

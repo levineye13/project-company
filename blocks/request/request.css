@@ -2,3 +2,9 @@
   background-color: #f7654a;
   font-family: 'Oswald', Arial, sans-serif;
 }
+
+@media screen and (max-width: 720px) {
+  .request {
+    padding-bottom: 15px;
+  }
+}

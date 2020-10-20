@@ -36,6 +36,7 @@
 @import url('./../blocks/request/request.css');
 @import url('./../blocks/content/__request/content__request.css');
 @import url('./../blocks/request/__content/request__content.css');
+@import url('./../blocks/request/__text-container/request__text-container.css');
 @import url('./../blocks/request/__title/request__title.css');
 @import url('./../blocks/request/__subtitle/request__subtitle.css');
 @import url('./../blocks/request/__button/request__button.css');
