@@ -1,0 +1,17 @@
+.partners__item {
+  flex: 0 1 170px;
+}
+
+.partners__item:not(:last-child) {
+  margin-right: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .partners__item {
+    flex-basis: auto;
+  }
+
+  .partners__item:not(:last-child) {
+    margin: 0 0 10px;
+  }
+}

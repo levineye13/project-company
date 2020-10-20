@@ -3,3 +3,9 @@
   margin: 0 0 60px;
   text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+  .partners__title {
+    margin-bottom: 40px;
+  }
+}
