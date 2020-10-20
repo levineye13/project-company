@@ -4,5 +4,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px) {
+  .footer__content {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: initial;
+  }
 }

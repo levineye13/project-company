@@ -5,5 +5,11 @@
   font-style: normal;
   line-height: 138%;
   color: #fff;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 600px) {
+  .footer__comment {
+    margin-bottom: 15px;
+  }
 }
