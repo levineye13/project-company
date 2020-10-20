@@ -2,8 +2,22 @@
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 100%;
   list-style-type: none;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, fit-content(480px));
+}
+
+@media screen and (max-width: 1280px) {
+  .portfolio__list {
+    grid-template-columns: repeat(2, fit-content(480px));
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .portfolio__list {
+    grid-template-columns: repeat(1, fit-content(480px));
+    justify-content: center;
+  }
 }
