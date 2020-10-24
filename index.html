@@ -2,8 +2,12 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="shortcut icon" href="./images/header-logo.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./images/header-logo.ico"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="./pages/index.css" />
     <title>Проекты в России</title>
   </head>
@@ -15,17 +19,25 @@
             src="./images/header-logo.png"
             alt="Логотип"
             class="header__logo"
-					/>
-					<button class="header__menu" type="button">
-						<span
-							class="header__menu-element animation animation_type_button-menu"
-						></span>
-					</button>
-					<ul class="header__menu-list">
-						<li class="header__menu-item"><a href="#question" class="header__menu-link">Вопросы</a></li>
-						<li class="header__menu-item"><a href="#partners" class="header__menu-link">Партнёры</a></li>
-						<li class="header__menu-item"><a href="#contacts" class="header__menu-link">Контакты</a></li>
-					</ul>
+          />
+          <button class="header__button-menu" type="button">
+            <span
+              class="header__menu-element animation animation_type_button-menu"
+            ></span>
+          </button>
+          <menu class="header__menu section section_narrow">
+            <ul class="header__menu-list">
+              <li class="header__menu-item">
+                <a href="#question" class="header__menu-link">Вопросы</a>
+              </li>
+              <li class="header__menu-item">
+                <a href="#partners" class="header__menu-link">Партнёры</a>
+              </li>
+              <li class="header__menu-item">
+                <a href="#contacts" class="header__menu-link">Контакты</a>
+              </li>
+            </ul>
+          </menu>
         </header>
         <h1 class="first-screen__title">
           реализуем крупнейшие проекты в России
@@ -69,45 +81,45 @@
                 src="./images/project-card-img.png"
                 alt="Газпром Арена"
                 class="project__img"
-							/>
-							<div class="project__container">
-								<h3 class="project__card-title">Газпром Арена</h3>
-								<p class="project__text">
-									Мы сделали самую красивую арену в Европе. Это открытие стало для
-									нас прорывной точкой для разивтия на следующие десятилетия. Мы
-									очень рады данному еву.
-								</p>
-							</div>
+              />
+              <div class="project__container">
+                <h3 class="project__card-title">Газпром Арена</h3>
+                <p class="project__text">
+                  Мы сделали самую красивую арену в Европе. Это открытие стало
+                  для нас прорывной точкой для разивтия на следующие
+                  десятилетия. Мы очень рады данному еву.
+                </p>
+              </div>
             </li>
             <li class="project__item">
               <img
                 src="./images/project-card-img.png"
                 alt="Газпром Арена"
                 class="project__img"
-							/>
-							<div class="project__container">
-								<h3 class="project__card-title">Газпром Арена</h3>
-								<p class="project__text">
-									Мы сделали самую красивую арену в Европе. Это открытие стало для
-									нас прорывной точкой для разивтия на следующие десятилетия. Мы
-									очень рады данному еву.
-								</p>
-							</div>
+              />
+              <div class="project__container">
+                <h3 class="project__card-title">Газпром Арена</h3>
+                <p class="project__text">
+                  Мы сделали самую красивую арену в Европе. Это открытие стало
+                  для нас прорывной точкой для разивтия на следующие
+                  десятилетия. Мы очень рады данному еву.
+                </p>
+              </div>
             </li>
             <li class="project__item">
               <img
                 src="./images/project-card-img.png"
                 alt="Газпром Арена"
                 class="project__img"
-							/>
-							<div class="project__container">
-								<h3 class="project__card-title">Газпром Арена</h3>
-								<p class="project__text">
-									Мы сделали самую красивую арену в Европе. Это открытие стало для
-									нас прорывной точкой для разивтия на следующие десятилетия. Мы
-									очень рады данному еву.
-								</p>
-							</div>
+              />
+              <div class="project__container">
+                <h3 class="project__card-title">Газпром Арена</h3>
+                <p class="project__text">
+                  Мы сделали самую красивую арену в Европе. Это открытие стало
+                  для нас прорывной точкой для разивтия на следующие
+                  десятилетия. Мы очень рады данному еву.
+                </p>
+              </div>
             </li>
           </ul>
         </section>
@@ -252,11 +264,14 @@
                 alt="Здание"
                 class="portfolio__img"
               />
-						</li>
+            </li>
           </ul>
         </section>
 
-        <section class="question section section_narrow content__question" id="question">
+        <section
+          class="question section section_narrow content__question"
+          id="question"
+        >
           <h2 class="question__title title">Ответы на вопросы</h2>
           <ul class="question__list">
             <li class="question__item">
@@ -375,7 +390,10 @@
           </div>
         </section>
 
-        <section class="contacts section section_narrow content__contacts" id="contacts">
+        <section
+          class="contacts section section_narrow content__contacts"
+          id="contacts"
+        >
           <h2 class="contacts__title title">Контакты</h2>
           <ul class="contacts__list">
             <li class="contacts__item">
@@ -426,8 +444,8 @@
           <p class="footer__comment">Разработано лучшей студией</p>
         </div>
       </footer>
-		</div>
-		
-		<script src="./pages/index.js" type="module"></script>
+    </div>
+
+    <script src="./pages/index.js" type="module"></script>
   </body>
 </html>

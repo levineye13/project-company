@@ -1,0 +1,5 @@
+.header__menu_visible {
+  visibility: visible;
+  opacity: 1;
+  height: 40vh;
+}
