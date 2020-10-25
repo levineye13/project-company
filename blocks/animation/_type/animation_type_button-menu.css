@@ -10,17 +10,17 @@
   }
 }
 
-.header__menu:hover .animation_type_button-menu {
+.header__button-menu:hover .animation_type_button-menu {
   animation: button-menu 0.2s linear 0s 1;
   -webkit-animation: button-menu 0.2s linear 0s 1;
 }
 
-.header__menu:hover::before {
+.header__button-menu:hover::before {
   animation: button-menu 0.1s linear 0s 1;
   -webkit-animation: button-menu 0.1s linear 0s 1;
 }
 
-.header__menu:hover::after {
+.header__button-menu:hover::after {
   animation: button-menu 0.3s linear 0s 1;
   -webkit-animation: button-menu 0.3s linear 0s 1;
 }
