@@ -1,5 +1,6 @@
 import HeaderMenuItem from './../components/HeaderMenuItem.js';
 import Section from './../components/Section.js';
+import HeaderMenu from './../components/HeaderMenu.js';
 import {
   checkboxSelector,
   paragraphSelector,
@@ -23,22 +24,6 @@ checkboxList.forEach((checkboxItem) => {
   });
 });
 
-const openMenu = function () {
-  headerMenu.classList.add('header__menu_visible');
-};
-
-const closeMenu = function () {
-  headerMenu.classList.remove('header__menu_visible');
-};
-
-buttonMenu.addEventListener('click', () => {
-  if (headerMenu.classList.contains('header__menu_visible')) {
-    closeMenu();
-  } else {
-    openMenu();
-  }
-});
-
 const renderMenuItems = new Section(
   headerMenuData,
   {
@@ -51,3 +36,6 @@ const renderMenuItems = new Section(
 );
 
 renderMenuItems.renderItems();
+
+const menu = new HeaderMenu('header__menu', 'header__button-menu');
+menu.setEventListeners();
