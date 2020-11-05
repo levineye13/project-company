@@ -1,0 +1,17 @@
+.popup__title {
+  color: #fff;
+  letter-spacing: 0.5px;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 1080px) {
+  .popup__title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .popup__title {
+    font-size: 16px;
+  }
+}

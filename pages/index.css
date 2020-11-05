@@ -85,10 +85,14 @@
 @import url('./../blocks/footer/__content/footer__content.css');
 @import url('./../blocks/footer/__copyright/footer__copyright.css');
 @import url('./../blocks/footer/__comment/footer__comment.css');
+@import url('./../blocks/popup/popup.css');
+@import url('./../blocks/popup/_visible/popup_visible.css');
+@import url('./../blocks/popup/_type/popup_type_card.css');
+@import url('./../blocks/popup/_type/popup_type_image.css');
+@import url('./../blocks/popup/__container/popup__container.css');
+@import url('./../blocks/popup/__button-close/popup__button-close.css');
+@import url('./../blocks/popup/__img/popup__img.css');
+@import url('./../blocks/popup/__title/popup__title.css');
 @import url('./../blocks/animation/animation.css');
 @import url('./../blocks/animation/_type/animation_type_button-menu.css');
 @import url('./../blocks/animation/_type/animation_type_button-request.css');
-
-/* {
-  border: 1px solid red;
-} */
