@@ -1,14 +1,16 @@
 .project__img {
   width: 100%;
   max-width: 350px;
+  min-height: 360px;
   height: auto;
-  object-fit: contain;
-  object-position: left top;
+  object-fit: cover;
+  object-position: center;
 }
 
 @media screen and (max-width: 960px) {
   .project__img {
     max-width: 50%;
+    min-height: auto;
   }
 }
 
