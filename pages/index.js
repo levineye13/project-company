@@ -6,9 +6,6 @@ import CardPopup from './../components/CardPopup.js';
 import {
   checkboxSelector,
   paragraphSelector,
-  headerMenu,
-  buttonMenu,
-  page,
   headerMenuData,
   headerMenuSelector,
   menuItemSelector,
