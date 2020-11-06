@@ -60,7 +60,7 @@ const imageList = document.querySelectorAll('.portfolio__item');
 imageList.forEach((imageBlock) => {
   const image = imageBlock.querySelector('.portfolio__img');
   imageBlock.addEventListener('click', () => {
-    imagePopup.open(image.src);
+    imagePopup.open(image.src, image.alt);
     imagePopup.setEventListeners();
   });
 });

@@ -1,5 +1,6 @@
 .portfolio__img {
   display: block;
+  position: static;
   max-width: 100%;
   width: 100%;
   height: auto;

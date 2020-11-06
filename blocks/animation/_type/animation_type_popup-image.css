@@ -1,0 +1,21 @@
+@keyframes popup-image {
+  0% {
+    transform: rotate(0) scale(0);
+    -webkit-transform: rotate(0) scale(0);
+    -moz-transform: rotate(0) scale(0);
+    -ms-transform: rotate(0) scale(0);
+    -o-transform: rotate(0) scale(0);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+    -webkit-transform: rotate(360deg) scale(1);
+    -moz-transform: rotate(360deg) scale(1);
+    -ms-transform: rotate(360deg) scale(1);
+    -o-transform: rotate(360deg) scale(1);
+  }
+}
+
+.popup.popup_visible .popup__img {
+  animation: popup-image 0.3s linear 0s 1;
+  -webkit-animation: popup-image 0.3s linear 0s 1;
+}

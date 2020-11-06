@@ -8,8 +8,9 @@ function ImagePopup(popupSelector) {
 ImagePopup.prototype = Object.create(Popup.prototype);
 ImagePopup.prototype.constructor = ImagePopup;
 
-ImagePopup.prototype.open = function (link) {
+ImagePopup.prototype.open = function (link, alt) {
   this._image.src = link;
+  this._image.alt = alt;
   Popup.prototype.open.call(this);
 };
 
