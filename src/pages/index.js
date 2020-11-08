@@ -1,3 +1,4 @@
+import './index.css';
 import HeaderMenuItem from './../components/HeaderMenuItem.js';
 import Section from './../components/Section.js';
 import HeaderMenu from './../components/HeaderMenu.js';
