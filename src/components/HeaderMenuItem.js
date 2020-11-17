@@ -1,10 +1,10 @@
-function HeaderMenuItem(dataItem, templateSelector) {
+const HeaderMenuItem = function (dataItem, templateSelector) {
   this._dataItem = dataItem;
 
   HeaderMenuItem._template = document
     .querySelector(`#${templateSelector}`)
     .content.cloneNode(true).children[0];
-}
+};
 
 HeaderMenuItem.prototype.getView = function () {
   this._itemMarkup = HeaderMenuItem._template;

@@ -25,8 +25,8 @@ checkboxList.forEach((checkboxItem) => {
 });
 
 const renderMenuItems = new Section(
-  headerMenuData,
   {
+    items: headerMenuData,
     renderer: (item) => {
       const menuItem = new HeaderMenuItem(item, menuItemSelector);
       renderMenuItems.addItem(menuItem.getView());

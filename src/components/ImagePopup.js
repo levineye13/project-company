@@ -1,9 +1,9 @@
 import Popup from './Popup.js';
 
-function ImagePopup(popupSelector) {
+const ImagePopup = function (popupSelector) {
   Popup.call(this, popupSelector);
   this._image = this._popup.querySelector('.popup__img');
-}
+};
 
 ImagePopup.prototype = Object.create(Popup.prototype);
 ImagePopup.prototype.constructor = ImagePopup;

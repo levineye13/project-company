@@ -1,7 +1,7 @@
-function Popup(popupSelector) {
+const Popup = function (popupSelector) {
   this._popup = document.querySelector(`.${popupSelector}`);
   this._handleEscClose = this._handleEscClose.bind(this);
-}
+};
 
 Popup.prototype.open = function () {
   this._popup.classList.add('popup_visible');

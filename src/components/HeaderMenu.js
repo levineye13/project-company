@@ -1,8 +1,8 @@
-function HeaderMenu(menuSelector, switchElementSelector) {
+const HeaderMenu = function (menuSelector, switchElementSelector) {
   this._menu = document.querySelector(`.${menuSelector}`);
   this._switchElement = document.querySelector(`.${switchElementSelector}`);
   this._handleEscPressClose = this._handleEscPressClose.bind(this);
-}
+};
 
 HeaderMenu.prototype.open = function () {
   this._menu.classList.add('header__menu_visible');

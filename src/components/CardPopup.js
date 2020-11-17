@@ -1,10 +1,10 @@
 import Popup from './Popup.js';
 
-function CardPopup(popupSelector) {
+const CardPopup = function (popupSelector) {
   Popup.call(this, popupSelector);
   this._image = this._popup.querySelector('.popup__img');
   this._title = this._popup.querySelector('.popup__title');
-}
+};
 
 CardPopup.prototype = Object.create(Popup.prototype);
 CardPopup.prototype.constructor = CardPopup;
